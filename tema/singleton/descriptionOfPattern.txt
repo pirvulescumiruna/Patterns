@@ -1,0 +1,13 @@
+E-LEARNING WEB PLATFORM FOR UNIVERSITIES
+
+There is a need to track any changes that are made regarding assignments for students. For that a logger must be implemented in order
+to be able to track the changes into a single log file.
+
+Pros
+-you can be sure that a class has only a single instance.
+-the logger is initialized only when it’s requested the first time.
+
+Cons
+-the pattern solves two problems at the time, which is bad clean code design (SRP)
+-difficult to unit test since most frameworks use mocks
+

@@ -1,0 +1,12 @@
+E-LEARNING WEB PLATFORM FOR UNIVERSITIES
+
+The app allows creation of different types of reports, individual for each student or collective for an entire group of students.
+An effective solution must be found to be able to create both individual or collective reports for users.
+
+Pros
+-avoiding tight coupling between creator and concrete reports
+-you are able to introduce new types of reports into the program without breaking existing client code
+
+Cons
+-code complexity increases as you may need to introduce a lot of new subclasses to implement the pattern
+-loose coupling results in decreseased performance
